@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+
+
+<div id="map"></div>
+
+<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+<script>
+
+	window.onload = function() {
+	  cartodb.createVis('map', 'http://pironus.carto.com/u/pironus/api/v2/viz/cea7c405-77ad-42f0-a401-432ba8e4c77f/viz.json');
+	}
+</script>
+
+<style>
+
+	#map {
+		height: 100%;
+		width: 100%;
+		padding : 0;
+		margin: 0;
+	}
+
+	body, html {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.cartodb-map-wrapper {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.cartodb-searchbox{
+		display: none;
+
+	}
+
+</style>
+
+</html>
